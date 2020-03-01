@@ -6,6 +6,10 @@
 
 # Make sure file has execution permission ( chmod +x  ./mapper.py)
 
+import sys
+from sys import stdin
+import re
+
 data={}
 for contents in stdin:
     content=contents.split('\t')
